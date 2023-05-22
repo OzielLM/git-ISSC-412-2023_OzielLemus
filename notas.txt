@@ -40,3 +40,12 @@ Las ramas parten de un commit de origen.
 Integracion de rams:
 Para este fin se utiliza la operacion "merge".
 Un merge combina los commits de una rama hacia otra en un solo commit conocido como un "merge commit".
+
+Resolucion de conflictos:
+Estrategias:
+1.- Merge commit: crea un merge commit con cambios aplicados en el orden que el desarrollador elija.
+2.- Rebase: cambia el punto de origin de una rama, resolviendo conflictos durante la operacion. Requiere un "force push para 
+    sobreescibir la rama remota".
+
+Pull request:
+Solicita la aprobacion de los cambios de una rama a otro colaborador, previo a la integracion de las 2 ramas (merge).
